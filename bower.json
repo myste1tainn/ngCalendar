@@ -1,0 +1,29 @@
+{
+  "name": "ngCalendar",
+  "main": "ngCalendar.js",
+  "version": "0.0.1",
+  "homepage": "http://dev-mysteltainn.rhcloud.com/",
+  "authors": [
+    "myste1tainn"
+  ],
+  "description": "Calendar widget on AngularJS",
+  "keywords": [
+    "calendar",
+    "calendar-widget",
+    "calendar-event",
+    "editable-calendar",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "ngDraggable": "myste1tainn/ngDraggable"
+  }
+}

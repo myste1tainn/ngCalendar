@@ -3,6 +3,9 @@ bin/
 bin-debug/
 bin-release/
 
+# Dependecies folders
+bower_components/
+
 # Other files and folders
 .settings/
 
