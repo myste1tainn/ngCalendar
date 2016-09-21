@@ -1,0 +1,18 @@
+<div class="cal-header">
+	<div class="head"> 
+		W{{ calendarCtrl.selected.week }} 
+	</div> 
+	<div class="head" ng-repeat="day in calendarCtrl.days" ng-class="{sunday : day.name == 'Sun'}"> 
+		{{ day.name }} 
+	</div>
+</div>
+
+<div class="cal-body">
+	<weekly-head>
+		<div ng-repeat="hour in calendarCtrl.hours">
+			{{hour}}
+		</div>
+	</weekly-head>
+	<div weekly-column ng-repeat="day in calendarCtrl.days" style="float:left;width:13.475%;"> +
+	</div>
+</div>

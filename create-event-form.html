@@ -1,0 +1,30 @@
+<div ng-controller="CreateNewEventController as ctrl">
+	<h5 style="text-align:center">New Events</h5>
+	<form name="newEventForm">
+
+		<!-- Name -->
+		<div class="row form-row">
+			<h5 class="col-xs-4 form-label">Name :</h5>
+			<input class="col-xs-8" type="text" name="eventName" value="{{ctrl.eventName}}"><br/>
+		</div>
+
+		<!-- Time -->
+		<div class="row form-row">
+			<h5 class="col-xs-4 form-label">Time :</h5>
+			<input class="col-xs-3" type="text" name="timeFrom" value="{{ctrl.from}}">
+			<span class="col-xs-2" style="padding:0;text-align:center">-</span>
+			<input class="col-xs-3" type="text" name="timeTo" value="{{ctrl.to}}">
+		</div>
+
+		<!-- Submit -->
+		<button class="col-xs-12 cal-default" 
+				style="position:absolute;left:0; height:2.6em" 
+				type="submit" 
+				ng-click="ctrl.submit()">
+
+				<b style="font-size:20px">+</b>
+
+		</button>
+
+	</form>
+</div>

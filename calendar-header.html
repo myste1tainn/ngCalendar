@@ -1,0 +1,7 @@
+
+<div class="head" style="border-right: 1px solid lightgray"> 
+	{{ calCtrl.weekNumber }} 
+</div> 
+<div class="head" ng-repeat="day in calHeaderCtrl.days" ng-class="{sunday : day.name == 'Sun'}"> 
+	{{ day.name }} 
+</div>
